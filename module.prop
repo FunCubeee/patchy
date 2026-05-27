@@ -1,0 +1,7 @@
+id=kernel_patcher
+name=Patchy || boot.img patch
+version=v1.0
+versionCode=1
+author=FunCube
+description=|| Patches boot.img file, and deleting BPF ||
+
