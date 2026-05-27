@@ -91,7 +91,7 @@ sh "$MODDIR/patch.sh" "$WORK_DIR/boot.img" "$OUTPUT_DIR/bpfpatched_$TIMESTAMP.im
 
 if [ $? -eq 0 ] && [ -f "$OUTPUT_DIR/bpfpatched_$TIMESTAMP.img" ]; then
     echo ""
-    echo "Succes: $OUTPUT_DIR/bpfpatched_$TIMESTAMP.img"
+    echo "Success: $OUTPUT_DIR/bpfpatched_$TIMESTAMP.img"
     rm -f "$WORK_DIR/boot.img"
 else
     echo "Patching failed"
